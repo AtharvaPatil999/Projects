@@ -1,0 +1,7 @@
+1:- Install xampp services
+2:- Start mysql and apache from control panel
+3:- Load the project folder(bid folder in this case) in htdocs folder of xampp
+4:- Create a database with same name given to database file(shop.sql in this case) and import the shop.sql file
+5:- Finally run this on browser http://localhost/bid/bid/index.php
+6:- If any error occurs then just congigure and make sure that you are working or correct port in this case i have mention port 3325
+7:- Wherever you see php file, check for database connections, it must look like this:- $conn = new mysqli('localhost', 'root', '', 'shop', 3325);
